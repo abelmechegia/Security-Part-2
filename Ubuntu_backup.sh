@@ -17,5 +17,3 @@ DATE=$(date +%Y%m%d%H%M%S)
 
 # Create the compressed backup
 tar -czf "$BACKUP_DIR/backup_$DATE.tar.gz" -C "$HOME_DIR" *.sh
-
-printf "Backup completed successfully and saved to $BACKUP_DIR/backup_$DATE.tar.gz"
